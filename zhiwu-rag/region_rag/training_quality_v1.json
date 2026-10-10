@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "source_manifest_sha256": "05b57865e13875a2dba5820451f4ac326db72635faca37c80ced6d317f081f6c",
+  "audit_sha256": "8f05a840cb89af44ec6b16d8bb103a28ce83434660c67c5f6dca6776a2bf9c63",
+  "exclusions": [
+    {
+      "query_id": "train_0010",
+      "image_sha256": "521f12586b85cf7e294eee1eb88571e62e0e45a1371191e4578058b95c30189a",
+      "image_path": "./data/ABO/images/small/b6/b6567990.jpg",
+      "reason": "insufficient_visible_shape",
+      "evidence": "查询为桌面边角特写，缺少区分方桌与长桌的整体结构。",
+      "reviewer": "assistant_visual_audit",
+      "positive_identity": "B005T605GE",
+      "negative_identity": "B005T604JW"
+    },
+    {
+      "query_id": "train_0030",
+      "image_sha256": "999919bbb1c305a76e408bf9e91bf63926cfea344be1085747de13366cbf543e",
+      "image_path": "./data/ABO/images/small/21/2133e1bb.jpg",
+      "reason": "unobservable_size_variant",
+      "evidence": "正负例为同系列地毯的尺寸变体，查询缺少可靠尺寸参照；保守隔离，不据此认定商品标签错误。",
+      "reviewer": "assistant_visual_audit",
+      "positive_identity": "B0723DD7YV",
+      "negative_identity": "B0719STLKT"
+    },
+    {
+      "query_id": "train_0065",
+      "image_sha256": "8b8bdf4799f547a7f928cfc00c552704e727eef0aa5c4fefd0dbca3f4a1b2778",
+      "image_path": "./data/ABO/images/small/07/07b87527.jpg",
+      "reason": "insufficient_visible_shape",
+      "evidence": "查询只露出条纹抱枕局部，缺少区分方形与长方形候选的整体形状。",
+      "reviewer": "assistant_visual_audit",
+      "positive_identity": "B07JLGC7Y8",
+      "negative_identity": "B07JLZJ94R"
+    },
+    {
+      "query_id": "train_0149",
+      "image_sha256": "f162d1906bfd9347bc45d469101cfdd750de742fb4755eb9b28ef0b9eb18a733",
+      "image_path": "./data/ABO/images/small/ef/efd58843.jpg",
+      "reason": "multiple_targets_unspecified",
+      "evidence": "查询中同时可见正例和负例所对应的抱枕款式，未指定目标实例。",
+      "reviewer": "assistant_visual_audit",
+      "positive_identity": "B074VKVNQX",
+      "negative_identity": "B074VMBGT4"
+    },
+    {
+      "query_id": "train_0154",
+      "image_sha256": "7e54ed09bc9b3096c89be1648c1ed456bc795db9db3f37765716b8ca7f290184",
+      "image_path": "./data/ABO/images/small/37/37e30a46.jpg",
+      "reason": "insufficient_visible_shape",
+      "evidence": "查询为桌面边角特写，缺少区分方桌与长桌的整体结构。",
+      "reviewer": "assistant_visual_audit",
+      "positive_identity": "B005T604JW",
+      "negative_identity": "B005T605GE"
+    }
+  ],
+  "scope": "Conservative quarantine of five inspected training queries; no automatic ground-truth relabeling. Metadata-only flags are not exclusions. Remaining queries are not certified clean."
+}

@@ -1,0 +1,38 @@
+{
+  "mode": "pairwise_rank_plus_ce",
+  "parent": "1804ab191a59ac2c51f67658a1511757c5391320a340f57a469910139d6467ea",
+  "config": {
+    "manifest": "05b57865e13875a2dba5820451f4ac326db72635faca37c80ced6d317f081f6c",
+    "parent": "1804ab191a59ac2c51f67658a1511757c5391320a340f57a469910139d6467ea",
+    "limit": 0,
+    "steps": 90,
+    "accum": 4,
+    "lr": 5e-06,
+    "seed": 20261009,
+    "margin": 0.5,
+    "ce_weight": 0.2,
+    "code": {
+      "detail_ablation.py": "a3fca496ca9150c10a7d4ef2ef3d41f87b60a3ce2477a992ceff0d6c6ccfcb7d",
+      "detail_core.py": "872e8b68d3d7078123b5b4ed6f93a5db0cd97bb37b8a8bce71f31ea3b2d47f01",
+      "detail_prepare.py": "745acb4951fd917c85a41870a870eab295c6c958ffa24f6f72cc423e8ac23ba2",
+      "posttrain_model.py": "34ab2296ded678fced1d46b0219ae3c5f7ec3fed3dbac6f9b76deb37db660534"
+    },
+    "version": 1,
+    "quality_review": {
+      "sha256": "27fd0183fb7763d18059fe73a22043f0b5c84a2dbccf191f3908de97232c9e35",
+      "excluded_queries": [
+        "train_0010",
+        "train_0030",
+        "train_0065",
+        "train_0149",
+        "train_0154"
+      ],
+      "code_sha256": "c30ce3c5423257ea4ad6016e4b16c1082e65adcb545069bf8464c3e3373f4354"
+    }
+  },
+  "arm": "E",
+  "adapter_l1_delta": 175.40669372677803,
+  "smoke": false,
+  "seconds": 314.334471278,
+  "peak_mib": 7599.14013671875
+}

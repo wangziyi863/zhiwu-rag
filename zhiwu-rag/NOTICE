@@ -1,0 +1,26 @@
+Zhiwu furniture visual retrieval and grounded QA — Built with Qwen.
+
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) Alibaba Cloud. All Rights Reserved.
+
+The included models/clean_e/E_adapter and models/dpo/dpo_adapter are modified
+LoRA weights trained from Qwen/Qwen2.5-VL-3B-Instruct. They are not official
+Qwen checkpoints. DPO answer-preference optimization and, for clean E,
+subsequent pairwise ranking plus CE training were applied. Base model weights
+are not redistributed in this archive. See LICENSES/Qwen-Research.txt.
+
+GLA-CLIP upstream: https://github.com/2btlFe/GLA-CLIP
+Base revision: 63d674626cb1ddc566e3177b9cb5b2dc7a212158
+The upstream README declares NTU S-Lab License 1.0 and links to the included
+LICENSES/S-Lab-1.0.txt. This is a non-commercial research/evaluation delivery,
+not a blanket MIT/Apache license grant over the entire project.
+
+Changes: overlap KV compression and counter adaptation (myutils.py, cfg.py,
+eval.py, overlap_kv.py); region_rag application and post-training pipeline;
+portable local DINO loading in gla_clip_segmentor.py; web UI and deployment tools.
+Evaluated ranking model/preprocessing files are preserved byte-for-byte.
+
+DINO vendored files: Copyright (c) Facebook, Inc. and its affiliates.
+See vendor/dino/LICENSE (Apache License 2.0).
+OpenCLIP and OpenAI CLIP attribution and MIT terms: LICENSES/.
+ABO data are downloaded separately and retain Amazon.com attribution and
+CC BY 4.0 terms. No user-uploaded scene images or ABO image dataset are included.

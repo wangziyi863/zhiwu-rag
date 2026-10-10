@@ -1,0 +1,14 @@
+{
+  "manifest": "05b57865e13875a2dba5820451f4ac326db72635faca37c80ced6d317f081f6c",
+  "weights": "575f0efc4838938314afa09897a62ed2b87919928b5edcd133abb907328995eb",
+  "dino_code": "b1f998d5f49ab43666b9fc6d007c5f6540c3ead2e8645e144f74045f63ff44d7",
+  "limit": 0,
+  "version": 1,
+  "tau": 0.65,
+  "gap": 0.03,
+  "foreground_mass": 0.65,
+  "code": {
+    "detail_prepare.py": "745acb4951fd917c85a41870a870eab295c6c958ffa24f6f72cc423e8ac23ba2",
+    "detail_core.py": "872e8b68d3d7078123b5b4ed6f93a5db0cd97bb37b8a8bce71f31ea3b2d47f01"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_sha256": "05b57865e13875a2dba5820451f4ac326db72635faca37c80ced6d317f081f6c",
+  "adapter_sha256": "1804ab191a59ac2c51f67658a1511757c5391320a340f57a469910139d6467ea",
+  "split": "val",
+  "pixels": 128,
+  "limit": 0,
+  "task": "single-token same-product policy v1",
+  "training_mode": "dpo",
+  "smoke_checkpoint": false,
+  "reference_adapter_sha256": "3f21ac5b44c261cbddd0059c7e42614683270efbb1145a1cbbabf5aa4342e4b0",
+  "cases": 120,
+  "smoke_only": false
+}

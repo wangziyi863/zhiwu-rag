@@ -1,0 +1,18 @@
+{
+  "mode": "dpo",
+  "manifest_sha256": "05b57865e13875a2dba5820451f4ac326db72635faca37c80ced6d317f081f6c",
+  "reference_adapter_sha256": "3f21ac5b44c261cbddd0059c7e42614683270efbb1145a1cbbabf5aa4342e4b0",
+  "pixels": 128,
+  "steps": 90,
+  "accum": 8,
+  "seed": 20261008,
+  "lr": 5e-06,
+  "beta": 0.1,
+  "training_pairs": 720,
+  "adapter_l1_delta": 546.5491181612015,
+  "trainable_parameters": 1843200,
+  "wall_seconds": 255.72841558100026,
+  "peak_allocated_mib": 7332.072265625,
+  "torch": "2.14.0+cu130",
+  "smoke_only": false
+}

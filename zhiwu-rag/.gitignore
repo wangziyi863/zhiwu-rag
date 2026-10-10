@@ -1,0 +1,17 @@
+.env
+.venv*/
+__pycache__/
+*.py[cod]
+*.log
+.cache/
+rag_data/
+data/
+output/
+show_dir/
+reports/
+models/base/
+*.part
+.DS_Store
+.idea/
+.vscode/
+# Deliberately keep models/clean_e and models/dpo: the small evaluated LoRA weights.

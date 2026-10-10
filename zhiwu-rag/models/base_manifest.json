@@ -1,0 +1,24 @@
+{
+  "huggingface": [
+    {
+      "repo_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+      "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3"
+    },
+    {
+      "repo_id": "IDEA-Research/grounding-dino-tiny",
+      "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71"
+    },
+    {
+      "repo_id": "facebook/sam2.1-hiera-tiny",
+      "revision": "de431c4043854a71d8101e17995dfe596bf101a5"
+    }
+  ],
+  "dino": {
+    "url": "https://dl.fbaipublicfiles.com/dino/dino_vitbase8_pretrain/dino_vitbase8_pretrain.pth",
+    "sha256": "575f0efc4838938314afa09897a62ed2b87919928b5edcd133abb907328995eb"
+  },
+  "clip": {
+    "url": "https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt",
+    "sha256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f"
+  }
+}
